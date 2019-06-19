@@ -15,9 +15,11 @@ a {
 
 /* HEADER */
 header {
-    background: black;
+    background:black;
     color: white;
-    padding: 1em 2em;    
+    padding: 1em 2em; 
+    font-family: Quicksand
+
 }
 
 header a {
@@ -81,9 +83,10 @@ header {
      display: grid;
      align-content: center;
      text-align: center;
-     background: darkred;
+     background-image:linear-gradient(purple, pink, rgb(219, 71, 71));
      min-height: 50vh;
-     color: white;
+     color:white;
+     font-family: Quicksand
  }
 
  
