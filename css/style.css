@@ -39,10 +39,10 @@ header {
 
  /* NAV */
  nav ul {
-     dispay: flex;
+     display: flex;
      justify-content: flex-end;
      margin:0;
-     paddiing-top: .6em
+     padding-top: .6em
  }
 
  nav li {
@@ -92,7 +92,7 @@ header {
  
  .hero h2 {
      font-size: 6em;
-     text-transformation: uppercase;
+     text-transform: uppercase;
      margin: 0 auto;
  }
 
@@ -105,14 +105,14 @@ header {
  .lists {
      max-width: 1000px;
      margin: 0 auto;
-     display; grid;
-     grid-template-colums: 1fr 1fr 1fr;
-     grid-colum-gap: 1em;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-column-gap: 1em;
  }
 
  @media (max-width:767px) {
      .lists {
-         grid-template-colums: 1fr 1fr;
+         grid-template-columns: 1fr 1fr;
      }
     }
     
