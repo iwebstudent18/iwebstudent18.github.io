@@ -8,8 +8,8 @@ body {
 }
 
 a {
-    text-decorations:none;
-    color: darkred;
+    text-decoration: none;
+    color:gold;
 }
 
 
@@ -18,7 +18,7 @@ header {
     background:black;
     color: white;
     padding: 1em 2em; 
-    font-family: Quicksand; 
+    font-family:fonts.googleapis.com/css?family ; 
 
 }
 
