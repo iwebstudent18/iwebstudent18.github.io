@@ -111,9 +111,30 @@ header {
      grid-column-gap: 1em;
  }
 
+
  @media (max-width:767px) {
      .lists {
          grid-template-columns: 1fr 1fr;
      }
     }
-    
+    /*SUB PAGES*/
+    .page-sub .hero {
+        background-image: linear-gradient(purple,pink,red);
+        min-height:30vh;
+    }
+    /* BLOG Archives*/
+    .blog-archives {
+        max-width: 600px;
+        margin:0 auto;
+    }
+    .blog-entry {
+        border: 1px solid #ddd;
+        padding: 2em;
+        margin: 2em 0;
+        
+    }
+    .date {
+        opacity: .5;
+        font-size: .8em;
+
+    }
