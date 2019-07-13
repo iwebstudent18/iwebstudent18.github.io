@@ -84,7 +84,7 @@ header {
      display: grid;
      align-content: center;
      text-align: center;
-     background-image:linear-gradient(purple, pink, rgb(219, 71, 71));
+     background-image: url(https://picsum.photos/id/10/1600/800);
      min-height: 50vh;
      color:white;
      font-family: "Short Stack";
@@ -119,8 +119,8 @@ header {
     }
     /*SUB PAGES*/
     .page-sub .hero {
-        background-image: linear-gradient(purple,pink,red);
-        min-height:30vh;
+        background-image: url(https://picsum.photos/id/10/1600/800);
+        min-height:50vh;
     }
     /* BLOG Archives*/
     .blog-archives {
@@ -137,4 +137,12 @@ header {
         opacity: .5;
         font-size: .8em;
 
+    }
+    /* UI GALLERY*/
+    .ui-designs {
+        text-align: center;
+    }
+    .ui-designs img  {
+        width: 200px;
+        height: auto;
     }
